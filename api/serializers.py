@@ -44,6 +44,7 @@ class UserSerializer(serializers.ModelSerializer):
         user.set_password(password)  # hashes the password
         user.save()
         return user
+    
 # class CRUD_Serializers(serializers.ModelSerializer):
 #     class Meta:
 #         model = CRUD

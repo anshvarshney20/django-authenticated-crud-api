@@ -11,3 +11,4 @@ class CRUD(models.Model):
     title = models.CharField(max_length=200)
     message = models.CharField(max_length=1000)
     createdAt = models.DateTimeField(auto_now_add=True)
+
